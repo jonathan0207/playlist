@@ -15,7 +15,7 @@ Agregar una nueva lista de reproducción.
 Editar una lista de reproducción existente.
 Eliminar una lista de reproducción.
 Tecnologías Utilizadas
-Java
+Java 11
 Spring Boot
 Maven
 MySQL
