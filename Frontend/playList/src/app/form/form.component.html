@@ -1,0 +1,22 @@
+<div>
+    <h2>Listas de Reproducción</h2>
+    <ul>
+      <li >
+      </li>
+    </ul>
+  </div>
+  
+  <div>
+    <h2>Agregar Nueva Lista de Reproducción</h2>
+    <form (ngSubmit)="agregarListaReproduccion()">
+      <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" >
+      </div>
+      <div>
+        <label for="descripcion">Descripción:</label>
+        <textarea id="descripcion" name="descripcion" required></textarea>
+      </div>
+      <button type="submit">Agregar Lista</button>
+    </form>
+  </div>
